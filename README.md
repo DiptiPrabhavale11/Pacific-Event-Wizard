@@ -103,7 +103,11 @@ of all the on-campus events organized by various clubs and departments altogethe
 * ## How to download run the project ? ##
 
     * <b> STEP 1:</b> Dowload or clone the repository using command ``` git clone https://github.com/comp227/final-dipti.git ```
-    * <b> STEP 2:</b> Go to the final-dipti folder and run ``` npm install ```
-    * <b> STEP 3:</b> To run backend code execute command ``` npm start ```. It will start the server at http://locahost:3001
-    * <b> STEP 4:</b> To run front-end code go to the folder front-end and run ``` npm install ```.
-    * <b> STEP 5:</b> Execute command ``` npm start ```. It will start the application at http://locahost:3000
+    * <b> STEP 2:</b> Create two .env files inside root folder and front-end folder respectively.
+    * <b> STEP 3:</b> Add REACT_APP_DATABASE= mongodb OR  REACT_APP_DATABASE= firebase inside .env file form front-end folder. Application will point to the respective database based on the values provided (i.e. mongodb or firebase)
+    * <b> STEP 4:</b> Add MONGODB_URI, PORT inside .env file from the roor folder. It will point to specified mongoDB database.
+    * <b> STEP 5:</b> Go to the root folder (i.e. Pacific-Event-Wizard) and run ``` npm install ```
+    * <b> STEP 6:</b> To run backend code execute command ``` npm start ```. It will start the server at http://locahost:3001
+    * <b> STEP 7:</b> To run front-end code go to the folder front-end and run ``` npm install ```.
+    * <b> STEP 8:</b> Execute command ``` npm start ```. It will start the application at http://locahost:3000
+    
