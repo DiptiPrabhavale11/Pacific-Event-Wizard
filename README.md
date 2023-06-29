@@ -1,6 +1,6 @@
-# final-dipti
+# Pacific Event Wizard
 The Pacific Event Wizard application is a common platform for all the UOP students to get the details
-of all the on-campus events organized by various clubs and departments altogether. It can be accessed using [this link](https://comp227-final-project.onrender.com ).
+of all the on-campus events organized by various clubs and departments altogether. It can be accessed using [this link](https://pacific-event-wizard.onrender.com/).
 
 *  <b>Targeted Users for this application </b>
 
